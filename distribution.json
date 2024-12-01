@@ -9,9 +9,9 @@
   "servers": [
     {
       "id": "Demo-1.19.4",
-      "name": "Demo (Minecraft 1.19.4)",
-      "description": "Demo Running Minecraft 1.19.4 (Forge v45.0.9)",
-      "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.19.4/Demo-1.19.4.png",
+      "name": "NeoCube",
+      "description": "NeoCube admin client (indev)",
+      "icon": "https://github.com/NeoCubeS4/NeoLauncher/blob/main/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.19.4",
