@@ -1,3 +1,0 @@
-version:3465
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","black_icons","file/NeoCube Modern UI.zip"]
-incompatibleResourcePacks:["file/NeoCube Modern UI.zip"]

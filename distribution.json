@@ -12,7 +12,7 @@
       "name": "NeoCube",
       "description": "",
       "icon": "https://github.com/NeoCubeS4/NeoLauncher-sources/blob/main/main.png?raw=true",
-      "version": "4.1.6",
+      "version": "4.1.7",
       "address": "86.198.202.53:30000",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -798,17 +798,6 @@
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/fancymenu_data/last_world.fmdata",
             "MD5": "93afeb7398ec3062a1746daa7cabbd4a",
             "path": "fancymenu_data/last_world.fmdata"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 190,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/options.txt",
-            "MD5": "7355dfc6e969097dc51b645771f6f849",
-            "path": "options.txt"
           }
         },
         {
