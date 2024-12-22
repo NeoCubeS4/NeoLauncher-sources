@@ -1,0 +1,15 @@
+type = custom_gui_screens
+
+overridden_screens {
+  net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen = neocube_modern_ui_v1
+}
+
+custom_gui {
+  identifier = neocube_modern_ui_v1
+  title = NeoCube Modern UI
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
