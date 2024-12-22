@@ -573,6 +573,16 @@
           }
         },
         {
+          "id": "net.optifine:optifine:1.20.1_HD_U_I6@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7145205,
+            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/OptiFine_1.20.1_HD_U_I6.jar.disabled",
+            "MD5": "7a7982ac06b89dd8c1721ea53a33b768"
+          }
+        },
+        {
           "id": "com.talhanation:smallships:2.0.0-b1.4@jar",
           "name": "Small Ships",
           "type": "ForgeMod",
@@ -603,102 +613,36 @@
           }
         },
         {
-          "id": "animations.json5",
-          "name": "animations.json5",
+          "id": "background.jpg",
+          "name": "background.jpg",
           "type": "File",
           "artifact": {
-            "size": 3227,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/animation_overhaul/animations.json5",
-            "MD5": "eebf6d97f91a317e5f24effc7e2527c0",
-            "path": "config/animation_overhaul/animations.json5"
+            "size": 729806,
+            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/background.jpg",
+            "MD5": "8ec06955bea0cfc47e6a11e1b6f9fb70",
+            "path": "config/fancymenu/assets/background.jpg"
           }
         },
         {
-          "id": "local_player.json5",
-          "name": "local_player.json5",
+          "id": "logo.png",
+          "name": "logo.png",
           "type": "File",
           "artifact": {
-            "size": 285,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/animation_overhaul/local_player.json5",
-            "MD5": "80e26e0601dfd6c21b7c8ad741a16917",
-            "path": "config/animation_overhaul/local_player.json5"
+            "size": 492009,
+            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/logo.png",
+            "MD5": "4be57777ec299d8b37a292022221ba30",
+            "path": "config/fancymenu/assets/logo.png"
           }
         },
         {
-          "id": "bettervillage_1.properties",
-          "name": "bettervillage_1.properties",
+          "id": "mcdecimationmusic.ogg",
+          "name": "mcdecimationmusic.ogg",
           "type": "File",
           "artifact": {
-            "size": 144,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/bettervillage_1.properties",
-            "MD5": "357e1d61380980c171c8a156fb4da6f4",
-            "path": "config/bettervillage_1.properties"
-          }
-        },
-        {
-          "id": "create-client.toml",
-          "name": "create-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 5024,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/create-client.toml",
-            "MD5": "bdac7493fe272db0ad3e7ecbe8bc1f54",
-            "path": "config/create-client.toml"
-          }
-        },
-        {
-          "id": "create-common.toml",
-          "name": "create-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 157,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/create-common.toml",
-            "MD5": "7503e1571dd136604d3a78582d1a6cb0",
-            "path": "config/create-common.toml"
-          }
-        },
-        {
-          "id": "embeddium-fingerprint.json",
-          "name": "embeddium-fingerprint.json",
-          "type": "File",
-          "artifact": {
-            "size": 427,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/embeddium-fingerprint.json",
-            "MD5": "3d9f863a8e62db3ff31e7b1324278711",
-            "path": "config/embeddium-fingerprint.json"
-          }
-        },
-        {
-          "id": "embeddium-mixins.properties",
-          "name": "embeddium-mixins.properties",
-          "type": "File",
-          "artifact": {
-            "size": 269,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/embeddium-mixins.properties",
-            "MD5": "a9176524f816153a7967217b53bb75a1",
-            "path": "config/embeddium-mixins.properties"
-          }
-        },
-        {
-          "id": "embeddium-options.json",
-          "name": "embeddium-options.json",
-          "type": "File",
-          "artifact": {
-            "size": 852,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/embeddium-options.json",
-            "MD5": "c0a96a9199ece4278654cf6e1fb2584c",
-            "path": "config/embeddium-options.json"
-          }
-        },
-        {
-          "id": "neocubebg.jpg",
-          "name": "neocubebg.jpg",
-          "type": "File",
-          "artifact": {
-            "size": 5757750,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/neocubebg.jpg",
-            "MD5": "faeea30223c638ea3450c7eab02a70e3",
-            "path": "config/fancymenu/assets/neocubebg.jpg"
+            "size": 765394,
+            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/mcdecimationmusic.ogg",
+            "MD5": "ab25894535cfb76501571dae950f5bd0",
+            "path": "config/fancymenu/assets/mcdecimationmusic.ogg"
           }
         },
         {
@@ -706,9 +650,9 @@
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 149,
+            "size": 76,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "3d2147ca590dabed1e2b6e8e8831da0d",
+            "MD5": "8cd335741f1acd023a5203836fb9b944",
             "path": "config/fancymenu/customizablemenus.txt"
           }
         },
@@ -717,9 +661,9 @@
           "name": "neocube_modern_ui_v1.txt",
           "type": "File",
           "artifact": {
-            "size": 19832,
+            "size": 27812,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/customization/neocube_modern_ui_v1.txt",
-            "MD5": "39b74e3a1e155692f98b55dd8a4501ac",
+            "MD5": "cd17cf996c2c43c20ad80192e03a1739",
             "path": "config/fancymenu/customization/neocube_modern_ui_v1.txt"
           }
         },
@@ -730,7 +674,7 @@
           "artifact": {
             "size": 3360,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/customization/neocube_modern_ui_v1_layout.txt",
-            "MD5": "3794c3e016f724ba28329de347269341",
+            "MD5": "21e66f84d477de2337bee18c944e980e",
             "path": "config/fancymenu/customization/neocube_modern_ui_v1_layout.txt"
           }
         },
@@ -739,9 +683,9 @@
           "name": "custom_gui_screens.txt",
           "type": "File",
           "artifact": {
-            "size": 346,
+            "size": 303,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
-            "MD5": "146a512b576c11fe1ba212d389f78fbb",
+            "MD5": "84acd5ccf6c8a2a5634dae1f181fded0",
             "path": "config/fancymenu/custom_gui_screens.txt"
           }
         },
@@ -752,7 +696,7 @@
           "artifact": {
             "size": 197,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
-            "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
+            "MD5": "b1d90503818b70321cda4e6f05dc9906",
             "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
           }
         },
@@ -772,9 +716,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 1756,
+            "size": 1758,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/options.txt",
-            "MD5": "94449b2522fbd1b6b910d733cd2e1612",
+            "MD5": "6c5ee2e9b19460d7e5aa18c579be08f7",
             "path": "config/fancymenu/options.txt"
           }
         },
@@ -809,138 +753,6 @@
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/user_variables.db",
             "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
             "path": "config/fancymenu/user_variables.db"
-          }
-        },
-        {
-          "id": "flywheel-client.toml",
-          "name": "flywheel-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 274,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/flywheel-client.toml",
-            "MD5": "7deb8231cf3b6d45def6a5b7a3c032fd",
-            "path": "config/flywheel-client.toml"
-          }
-        },
-        {
-          "id": "fml.toml",
-          "name": "fml.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1147,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fml.toml",
-            "MD5": "69de99a0b6537f52ae3c9c239d7f0e42",
-            "path": "config/fml.toml"
-          }
-        },
-        {
-          "id": "forge-client.toml",
-          "name": "forge-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1399,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/forge-client.toml",
-            "MD5": "17ce4f44d2b8e9186512d7bc94501b18",
-            "path": "config/forge-client.toml"
-          }
-        },
-        {
-          "id": "blacklist.cfg",
-          "name": "blacklist.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 0,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/jei/blacklist.cfg",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "path": "config/jei/blacklist.cfg"
-          }
-        },
-        {
-          "id": "ingredient-list-mod-sort-order.ini",
-          "name": "ingredient-list-mod-sort-order.ini",
-          "type": "File",
-          "artifact": {
-            "size": 92,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
-            "MD5": "4ece5cf736a97ac18693152b81dcdfb8",
-            "path": "config/jei/ingredient-list-mod-sort-order.ini"
-          }
-        },
-        {
-          "id": "ingredient-list-type-sort-order.ini",
-          "name": "ingredient-list-type-sort-order.ini",
-          "type": "File",
-          "artifact": {
-            "size": 74,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
-            "MD5": "9256ba0b170fac4934f83a4e789d14a8",
-            "path": "config/jei/ingredient-list-type-sort-order.ini"
-          }
-        },
-        {
-          "id": "jei-client.ini",
-          "name": "jei-client.ini",
-          "type": "File",
-          "artifact": {
-            "size": 7991,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/jei/jei-client.ini",
-            "MD5": "81c1f04ca66332819d0805e5323f3e4a",
-            "path": "config/jei/jei-client.ini"
-          }
-        },
-        {
-          "id": "jei-colors.ini",
-          "name": "jei-colors.ini",
-          "type": "File",
-          "artifact": {
-            "size": 1338,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/jei/jei-colors.ini",
-            "MD5": "54322062602d3aabb6b11455e07de765",
-            "path": "config/jei/jei-colors.ini"
-          }
-        },
-        {
-          "id": "jei-debug.ini",
-          "name": "jei-debug.ini",
-          "type": "File",
-          "artifact": {
-            "size": 918,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/jei/jei-debug.ini",
-            "MD5": "4dd10e2f07441d4820fe65e804aac24c",
-            "path": "config/jei/jei-debug.ini"
-          }
-        },
-        {
-          "id": "jei-mod-id-format.ini",
-          "name": "jei-mod-id-format.ini",
-          "type": "File",
-          "artifact": {
-            "size": 463,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/jei/jei-mod-id-format.ini",
-            "MD5": "457dca8722dc66e695196c24fba7875f",
-            "path": "config/jei/jei-mod-id-format.ini"
-          }
-        },
-        {
-          "id": "recipe-category-sort-order.ini",
-          "name": "recipe-category-sort-order.ini",
-          "type": "File",
-          "artifact": {
-            "size": 832,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/jei/recipe-category-sort-order.ini",
-            "MD5": "692d0e478d731bce5b5055b4e762b17e",
-            "path": "config/jei/recipe-category-sort-order.ini"
-          }
-        },
-        {
-          "id": "config.txt",
-          "name": "config.txt",
-          "type": "File",
-          "artifact": {
-            "size": 258,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/justzoom/config.txt",
-            "MD5": "dd4bdf159bd8c21ca30a26be430aeb44",
-            "path": "config/justzoom/config.txt"
           }
         },
         {
@@ -988,171 +800,6 @@
           }
         },
         {
-          "id": "libraryferret_1.properties",
-          "name": "libraryferret_1.properties",
-          "type": "File",
-          "artifact": {
-            "size": 193,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/libraryferret_1.properties",
-            "MD5": "dcf9dd46e9047e38e860f11c3b6bb855",
-            "path": "config/libraryferret_1.properties"
-          }
-        },
-        {
-          "id": "moonlight-client.toml",
-          "name": "moonlight-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1018,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/moonlight-client.toml",
-            "MD5": "1217edc0dc4632434d9ed771ad85626f",
-            "path": "config/moonlight-client.toml"
-          }
-        },
-        {
-          "id": "moonlight-common.toml",
-          "name": "moonlight-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 2,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/moonlight-common.toml",
-            "MD5": "81051bcc2cf1bedf378224b0a93e2877",
-            "path": "config/moonlight-common.toml"
-          }
-        },
-        {
-          "id": "necronomicon.json5",
-          "name": "necronomicon.json5",
-          "type": "File",
-          "artifact": {
-            "size": 266,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/necronomicon.json5",
-            "MD5": "f5d72523e51844112485d6c21b8d51c3",
-            "path": "config/necronomicon.json5"
-          }
-        },
-        {
-          "id": "securitycraft-client.toml",
-          "name": "securitycraft-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 611,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/securitycraft-client.toml",
-            "MD5": "d0b3ba6adaa28fd402708fdc0a233b98",
-            "path": "config/securitycraft-client.toml"
-          }
-        },
-        {
-          "id": "smallships-client.toml",
-          "name": "smallships-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1187,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/smallships-client.toml",
-            "MD5": "28120089d4af3ceb77cc3d02ff71bb2a",
-            "path": "config/smallships-client.toml"
-          }
-        },
-        {
-          "id": "smallships-common.toml",
-          "name": "smallships-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 6271,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/smallships-common.toml",
-            "MD5": "4d549c080cf3c9b71a90f2e95cd0aa89",
-            "path": "config/smallships-common.toml"
-          }
-        },
-        {
-          "id": "snowyspirit-client.toml",
-          "name": "snowyspirit-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 227,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/snowyspirit-client.toml",
-            "MD5": "55b707287b5ec784abc18b96c28b6ab5",
-            "path": "config/snowyspirit-client.toml"
-          }
-        },
-        {
-          "id": "snowyspirit-common.toml",
-          "name": "snowyspirit-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 3700,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/snowyspirit-common.toml",
-            "MD5": "5b32284bd76084d852bb7e94f99fd3a8",
-            "path": "config/snowyspirit-common.toml"
-          }
-        },
-        {
-          "id": "translations.properties",
-          "name": "translations.properties",
-          "type": "File",
-          "artifact": {
-            "size": 1182,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/voicechat/translations.properties",
-            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
-            "path": "config/voicechat/translations.properties"
-          }
-        },
-        {
-          "id": "username-cache.json",
-          "name": "username-cache.json",
-          "type": "File",
-          "artifact": {
-            "size": 51,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/voicechat/username-cache.json",
-            "MD5": "ac301d3186a51451d838ee03baf5b0d9",
-            "path": "config/voicechat/username-cache.json"
-          }
-        },
-        {
-          "id": "voicechat-client.properties",
-          "name": "voicechat-client.properties",
-          "type": "File",
-          "artifact": {
-            "size": 4279,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/voicechat/voicechat-client.properties",
-            "MD5": "f5039a7ff595cdcbd375d964a39e1edf",
-            "path": "config/voicechat/voicechat-client.properties"
-          }
-        },
-        {
-          "id": "voicechat-server.properties",
-          "name": "voicechat-server.properties",
-          "type": "File",
-          "artifact": {
-            "size": 2371,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/voicechat/voicechat-server.properties",
-            "MD5": "77eff904229e9e32e904c1df4f1fcd0b",
-            "path": "config/voicechat/voicechat-server.properties"
-          }
-        },
-        {
-          "id": "voicechat-volumes.properties",
-          "name": "voicechat-volumes.properties",
-          "type": "File",
-          "artifact": {
-            "size": 37,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/voicechat/voicechat-volumes.properties",
-            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
-            "path": "config/voicechat/voicechat-volumes.properties"
-          }
-        },
-        {
-          "id": "voicechat-client.toml",
-          "name": "voicechat-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 94,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/voicechat-client.toml",
-            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
-            "path": "config/voicechat-client.toml"
-          }
-        },
-        {
           "id": "last_world.fmdata",
           "name": "last_world.fmdata",
           "type": "File",
@@ -1161,6 +808,17 @@
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/fancymenu_data/last_world.fmdata",
             "MD5": "93afeb7398ec3062a1746daa7cabbd4a",
             "path": "fancymenu_data/last_world.fmdata"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 190,
+            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/options.txt",
+            "MD5": "7355dfc6e969097dc51b645771f6f849",
+            "path": "options.txt"
           }
         },
         {
