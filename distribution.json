@@ -12,7 +12,7 @@
       "name": "NeoCube",
       "description": "",
       "icon": "https://github.com/NeoCubeS4/NeoLauncher-sources/blob/main/main.png?raw=true",
-      "version": "4.1.0",
+      "version": "4.1.1",
       "address": "86.198.202.53:30000",
       "minecraftVersion": "1.20.1",
       "discord": {
