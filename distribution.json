@@ -12,7 +12,7 @@
       "name": "NeoCube",
       "description": "",
       "icon": "https://github.com/NeoCubeS4/NeoLauncher-sources/blob/main/main.png?raw=true",
-      "version": "4.1.8",
+      "version": "4.1.9",
       "address": "86.198.202.53:30000",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -614,6 +614,17 @@
           }
         },
         {
+          "id": "backgroundopa.jpg",
+          "name": "backgroundopa.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 1501876,
+            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/backgroundopa.jpg",
+            "MD5": "d2a44836a7383d157319fcc7b4a1e52c",
+            "path": "config/fancymenu/assets/backgroundopa.jpg"
+          }
+        },
+        {
           "id": "logo.png",
           "name": "logo.png",
           "type": "File",
@@ -651,9 +662,9 @@
           "name": "neocube_modern_ui_v1.txt",
           "type": "File",
           "artifact": {
-            "size": 27812,
+            "size": 31425,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/customization/neocube_modern_ui_v1.txt",
-            "MD5": "cd17cf996c2c43c20ad80192e03a1739",
+            "MD5": "a305b7c0d1edee1ad99b10118216b10a",
             "path": "config/fancymenu/customization/neocube_modern_ui_v1.txt"
           }
         },
@@ -664,7 +675,7 @@
           "artifact": {
             "size": 3360,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/customization/neocube_modern_ui_v1_layout.txt",
-            "MD5": "21e66f84d477de2337bee18c944e980e",
+            "MD5": "fd533b7816df53f6f491d5c6d1e283ff",
             "path": "config/fancymenu/customization/neocube_modern_ui_v1_layout.txt"
           }
         },
@@ -673,9 +684,9 @@
           "name": "custom_gui_screens.txt",
           "type": "File",
           "artifact": {
-            "size": 303,
+            "size": 502,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
-            "MD5": "84acd5ccf6c8a2a5634dae1f181fded0",
+            "MD5": "cf8893ae4551848edb7a9d4d95b286b5",
             "path": "config/fancymenu/custom_gui_screens.txt"
           }
         },
