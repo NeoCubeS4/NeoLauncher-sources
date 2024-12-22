@@ -3,20 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1734879604808
+  last_edited_time = 1734892258856
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:ccc3e43e-d45e-4c31-87f7-520fce71dee3-1734879512786] = [groups:][instances:]
-}
-
-menu_background {
-  image_path = [source:local]/config/fancymenu/assets/neocubebg.jpg
-  slide = false
-  repeat_texture = false
-  background_type = image
+  [loading_requirement_container_meta:9a33cbbe-96a3-4c47-8a56-17fd3779ba12-1734892201393] = [groups:][instances:]
 }
 
 customization {
@@ -34,43 +27,13 @@ scroll_list_customization {
 }
 
 element {
-  button_element_executable_block_identifier = 1940f685-8612-42fe-a181-77188bd9eb37-1734870780492
-  [executable_action_instance:2ad4109d-2480-47b7-b1bb-6b1fb02e5624-1734870800511][action_type:joinserver] = 86.198.202.53:30000
-  [executable_block:1940f685-8612-42fe-a181-77188bd9eb37-1734870780492][type:generic] = [executables:2ad4109d-2480-47b7-b1bb-6b1fb02e5624-1734870800511;]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  description = Nombre de joueurs {"placeholder":"serverplayercount","values":{"ip":"86.198.202.53:30000"}}
-  label = Se connecter à NeoCube
-  navigatable = true
-  element_type = custom_button
-  instance_identifier = 86362cb1-9c49-437b-b7cc-dadecd17c901-1734870780492
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = true
-  fade_in_speed = 1.0
-  anchor_point = mid-left
-  x = 5
-  y = -45
-  width = 160
-  height = 20
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 88f5dd2c-9cfb-4970-9cca-6ff25d23d082-1734870780492
-  [loading_requirement_container_meta:88f5dd2c-9cfb-4970-9cca-6ff25d23d082-1734870780492] = [groups:][instances:]
-}
-
-element {
   copy_client_player = false
   playername = {"placeholder":"playername"}
   auto_skin = true
   auto_cape = true
   slim = true
   skin_source = {"placeholder":"playername"}
-  scale = 42
+  scale = 46
   parrot = false
   parrot_left_shoulder = false
   is_baby = false
@@ -101,11 +64,11 @@ element {
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = bottom-right
-  x = -57
-  y = -119
-  width = 25
-  height = 75
+  anchor_point = bottom-left
+  x = 147
+  y = -167
+  width = 27
+  height = 82
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -114,11 +77,86 @@ element {
 }
 
 element {
-  interactable = false
-  source = Les interfaces de NeoCube (NCMUI) sont encore en développement. Il peut donc y avoir des comportements anormaux, ou elles peuvent simplement être peu esthétiques.%n%%n%{"placeholder":"osname"}
+  button_element_executable_block_identifier = 13168c98-7731-439a-a418-fa99fa108383-1734889691291
+  [executable_action_instance:9dc836bf-5996-45d8-b568-d3b2429cea60-1734891436339][action_type:openlink] = https://discord.gg/Hjxzn5G2wr
+  [executable_block:13168c98-7731-439a-a418-fa99fa108383-1734889691291][type:generic] = [executables:9dc836bf-5996-45d8-b568-d3b2429cea60-1734891436339;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Discord
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 248c7d6e-557d-4b89-aa95-c4c574d8b724-1734889691291
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-left
+  x = 99
+  y = -68
+  width = 120
+  height = 24
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 47bb2d77-712b-4937-9eba-207278f5ba87-1734889691291
+  [loading_requirement_container_meta:47bb2d77-712b-4937-9eba-207278f5ba87-1734889691291] = [groups:][instances:]
+}
+
+element {
+  shape = rectangle
+  color = #000000
+  element_type = shape
+  instance_identifier = cf29a8d2-4cf3-4128-8d48-f68cc48a86d7-1734889159087
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-right
+  x = -605
+  y = -293
+  width = 545
+  height = 250
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 636d5106-57a0-4cb0-9f84-4ed2fcede49e-1734889159087
+  [loading_requirement_container_meta:636d5106-57a0-4cb0-9f84-4ed2fcede49e-1734889159087] = [groups:][instances:]
+}
+
+element {
+  source = [source:web]https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/client_NCMUI.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 7ef4e094-cfbf-4177-b60c-957f1c2ed95e-1734889273885
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = cf29a8d2-4cf3-4128-8d48-f68cc48a86d7-1734889159087
+  x = 6
+  y = 6
+  width = 142
+  height = 238
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = a47cbcdc-77f6-4e5c-b722-2358f02f5802-1734889273885
+  [loading_requirement_container_meta:a47cbcdc-77f6-4e5c-b722-2358f02f5802-1734889273885] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = Lorem ipsum odor amet, consectetuer adipiscing elit. Dis euismod semper, facilisi potenti diam netus ullamcorper luctus. In rhoncus justo netus sapien quam. Nibh nam congue velit in; commodo natoque velit fusce. Diam aliquet ligula scelerisque in metus magnis. Vitae venenatis quisque sem integer velit tristique. Ligula lobortis luctus quam phasellus litora facilisis elementum.%n%%n%Rutrum mollis et at metus enim auctor suspendisse. Nibh facilisi posuere vulputate a diam. Fermentum posuere turpis maecenas aenean euismod libero pretium ad. Duis feugiat ridiculus ornare non erat et sagittis montes. Pellentesque suspendisse mollis sodales lacinia dignissim orci parturient donec. Semper pretium nullam rhoncus montes cubilia; nulla euismod tempor. Risus senectus elit rutrum fames sollicitudin maximus ultrices dapibus mi. Mi malesuada dolor tristique; sociosqu volutpat accumsan.%n%%n%Metus posuere interdum justo consequat sollicitudin; tincidunt duis quisque. Justo sollicitudin sagittis morbi potenti molestie augue accumsan pharetra donec. Dignissim ridiculus mattis eget aliquet eu eget elit luctus. Conubia rutrum molestie suspendisse vestibulum in hendrerit. Nisl cubilia mollis parturient mattis et etiam vitae sem. Auctor volutpat adipiscing; duis mauris ipsum fringilla integer risus per.%n%%n%Libero rhoncus sed elementum risus augue magna. Etiam purus cursus enim elit aliquam elementum. In leo nascetur volutpat scelerisque accumsan sem. Feugiat malesuada erat natoque sem sit ornare. Placerat maximus litora; dapibus volutpat platea parturient adipiscing cras. Hendrerit metus porttitor at augue posuere dolor integer. Gravida sit urna laoreet ac bibendum facilisis odio montes euismod. Ex nullam sagittis magna cras convallis cursus penatibus montes turpis. Vulputate dignissim fringilla libero leo inceptos leo ipsum?%n%%n%Inceptos gravida diam vestibulum class integer ultricies. Ex neque inceptos efficitur nam ridiculus, magna mattis sed. Platea lectus eros class rutrum dapibus convallis sociosqu pellentesque. Rhoncus vestibulum purus luctus ligula nisl turpis mi. Arcu taciti quisque lectus netus diam. Fusce arcu nullam donec; odio nec mattis. Nam odio litora nullam sagittis parturient hendrerit.%n%%n%Nam ipsum laoreet id amet facilisi fusce tempor vestibulum pharetra. Leo tortor elementum augue ligula porttitor. Aliquet fringilla scelerisque luctus fames mattis enim nostra. Vitae nunc fermentum litora venenatis urna maecenas a himenaeos. Vitae egestas rhoncus vestibulum phasellus malesuada sem massa fusce. Fermentum massa facilisis nulla sit lacus nulla maximus.%n%%n%Habitasse fringilla vivamus et elit euismod laoreet sodales. Tincidunt neque efficitur suspendisse luctus quam enim. Sapien sociosqu potenti semper vitae nibh parturient. Curae diam feugiat pharetra morbi phasellus? Praesent commodo mauris eu fusce ultrices elit sem venenatis. Tincidunt est ut sollicitudin eros platea diam augue erat cubilia. Pretium class id curae aptent tellus. Ex elit maecenas nulla finibus aliquet tempus erat porta faucibus. Molestie mattis augue nulla convallis torquent mattis. Netus sagittis maecenas nullam himenaeos ac ultricies.%n%%n%Augue litora bibendum interdum eget augue tellus varius taciti. Penatibus sit maximus aenean mi efficitur; posuere tellus consectetur. Nisi nisi condimentum hendrerit lectus donec amet hac. Augue amet praesent dignissim nascetur mattis nulla platea sociosqu. Nisl facilisi fringilla neque tortor placerat quam. Netus montes eros purus tempor class tempor conubia porta. Mi donec semper nec nunc est elementum. Ridiculus turpis dui mus auctor class turpis metus dapibus urna. Laoreet ad aliquet tempor ridiculus parturient habitant condimentum.%n%%n%Fames sagittis purus aliquet donec ligula. Pellentesque sit tristique parturient gravida metus cursus placerat. Taciti semper eros magnis vehicula dapibus. Ridiculus blandit quisque sollicitudin aliquet velit etiam fusce scelerisque dui. Lobortis aliquam curae ligula ridiculus lectus magnis risus bibendum. Efficitur praesent adipiscing cubilia sem rutrum aenean. Class volutpat sem aptent pharetra turpis sem. Integer suscipit leo sodales gravida, a eleifend.%n%%n%Nullam aliquam metus; porta congue litora tempus consequat. Platea quisque torquent pulvinar montes mollis viverra phasellus. Velit potenti morbi pretium ut dictum ligula. Himenaeos parturient ipsum nulla ultrices duis ac luctus dignissim ex. Faucibus duis dignissim libero nostra feugiat. Auctor torquent maximus vel curabitur phasellus. Fames molestie viverra; sapien vestibulum leo vestibulum nunc. Maximus habitant fringilla aenean odio montes fames senectus turpis netus. Sapien primis cubilia consectetur; netus ultricies facilisi platea.%n%%n%Posuere nisl dignissim non dis hendrerit. Porttitor rhoncus condimentum senectus eleifend tortor sapien neque. Accumsan malesuada sem primis natoque lorem. Cubilia mi mollis in; nullam eu felis tincidunt. Libero sociosqu penatibus ligula dapibus eget quam mattis parturient. Convallis tristique commodo ut pulvinar vitae sit in. Hac luctus hac sollicitudin suscipit; faucibus netus tincidunt. Ullamcorper egestas at vel; finibus dictum sapien. Parturient facilisis aenean venenatis tristique est feugiat! Scelerisque mi gravida praesent ante elementum facilisi elementum per.%n%%n%Senectus elementum etiam risus mi cras. Magna rhoncus euismod dolor quisque neque quisque mollis velit volutpat. Condimentum ullamcorper scelerisque conubia egestas massa. Et neque phasellus adipiscing, magnis eget vivamus purus mi. Urna purus egestas turpis suspendisse dui, egestas feugiat consequat. Imperdiet mollis facilisis placerat nostra ornare amet eleifend. Ad erat efficitur ornare scelerisque adipiscing ex.%n%%n%Curabitur neque sociosqu bibendum euismod turpis facilisi urna cubilia. Suspendisse dolor dui senectus; condimentum facilisis tortor. Cursus id sit lobortis cursus consectetur. Aptent luctus felis consequat consequat urna amet non sed? Diam eros nam aptent mollis magna potenti. Gravida suscipit risus ullamcorper eleifend morbi. Ullamcorper sapien ultrices feugiat congue magnis. Integer finibus leo, semper feugiat adipiscing vulputate. Augue arcu accumsan commodo ad odio dui lectus vivamus?%n%%n%Nullam praesent at cubilia in felis, sodales aliquet nisi volutpat. Non auctor justo integer pharetra turpis ornare; senectus morbi. Leo maecenas sollicitudin enim cursus mi. Penatibus malesuada hendrerit ultrices magnis ligula nullam odio. Ligula mattis egestas enim sapien; maecenas aenean quam. Inceptos orci placerat iaculis maecenas sagittis pellentesque maecenas ad.%n%%n%Amet cursus fringilla; ad fringilla sollicitudin facilisis. Fames nibh tempus at ac aptent amet elementum nunc. Nisl dolor euismod fusce placerat netus cubilia placerat. Molestie consequat fusce id semper ad porta purus orci. Sed posuere felis per diam sagittis sagittis mattis himenaeos. Etiam penatibus pharetra vel consectetur tellus dis. Facilisis class nulla tincidunt vestibulum torquent condimentum mollis feugiat. Fames dis bibendum iaculis venenatis, ad inceptos dapibus.%n%%n%Enim id convallis lacus vel nisl. Dis est facilisi quisque odio adipiscing lacinia? Platea id dui facilisi quam velit morbi. Vestibulum facilisis vestibulum nisl libero morbi sem inceptos. In nec leo dignissim urna quisque tristique metus massa est. Condimentum habitant sem feugiat blandit et odio fringilla! Leo taciti tempus urna magnis ac tellus. Taciti enim eget suscipit maximus condimentum tristique. Consequat primis platea, justo dui dis augue hac.%n%%n%Ad in montes tristique fames eget porttitor cubilia semper? Libero congue laoreet sagittis hac pellentesque accumsan. Porta viverra tempus ac, velit penatibus nec suscipit. Ipsum netus nulla; interdum mi habitasse vitae. Hac arcu fringilla litora efficitur facilisis gravida. Tempor libero facilisi feugiat vehicula urna consectetur cursus amet.%n%%n%Lorem non lectus dapibus netus laoreet arcu dis auctor. Molestie eleifend eu eget volutpat tristique sodales ante morbi. Sit penatibus torquent diam ac dignissim ac vitae dis. Velit lacus mus quisque morbi, vehicula taciti convallis vestibulum nisl. Vulputate neque praesent pulvinar aliquam nisl. Vehicula primis eu magnis risus platea luctus in.%n%%n%Eu pharetra elementum venenatis curabitur est vel turpis? Dictumst ultricies cras litora parturient enim vivamus facilisi. Per et senectus tristique hendrerit parturient pretium? Netus iaculis metus augue molestie fames nibh tempus. Eleifend malesuada euismod viverra maecenas nunc nisi feugiat dis. Suscipit accumsan hendrerit tristique vulputate curabitur consectetur. Risus pretium ridiculus, tincidunt curabitur ridiculus primis nibh.%n%%n%Aliquam maximus lorem quisque curabitur velit sit finibus dis. Et ad dignissim suscipit; netus at mi tincidunt. Nam turpis enim consectetur ornare ante lectus. Interdum porta sollicitudin ultrices risus maximus praesent mi. Imperdiet lobortis inceptos quis convallis ridiculus. Augue taciti dis quisque; massa mollis vehicula. Dignissim erat ultricies; luctus adipiscing egestas laoreet sociosqu. Varius convallis netus parturient interdum sociosqu tortor.%n%%n%Dictumst vivamus himenaeos pretium justo nostra pellentesque. Fermentum nullam sollicitudin quis ridiculus efficitur etiam. Sagittis molestie id finibus; ante cursus nullam. Facilisis tempus potenti sollicitudin tincidunt curae morbi. Nunc varius adipiscing fames mauris dignissim pharetra dui. Arcu tincidunt duis nullam; dictumst ut posuere faucibus.%n%%n%Sagittis quis platea penatibus; nibh quisque euismod amet bibendum. Aliquam platea sagittis varius nibh lorem. Vulputate blandit pellentesque elementum mi, vehicula sagittis gravida. Eget ligula morbi porttitor mollis nam lacinia dignissim. Nibh scelerisque ac aliquet ridiculus imperdiet aenean. Ultrices sociosqu sapien neque diam sodales accumsan. Rutrum pretium ultricies nunc mattis; cubilia ligula metus. Facilisi sagittis vulputate penatibus neque ipsum; vulputate conubia ullamcorper.%n%%n%Montes quisque nunc ex pulvinar pharetra imperdiet quam pulvinar donec. Ex maximus hac ad dapibus semper erat finibus nibh curabitur. Tincidunt sit dictum tincidunt eget maecenas metus adipiscing leo. Finibus natoque habitant bibendum ante sociosqu. Penatibus auctor facilisis non dictum felis at purus erat. Natoque ultricies consequat fringilla euismod arcu. Tempor lacus suspendisse venenatis phasellus facilisis proin. Maximus non quisque scelerisque phasellus praesent penatibus fames ante interdum.%n%%n%Volutpat finibus bibendum cras curae felis viverra montes per conubia. Class blandit ultrices nisi fusce faucibus ad justo. Dui tristique finibus porta; sodales enim iaculis per nisl. Sollicitudin libero aliquam volutpat neque, litora consequat montes. Luctus interdum dui in class ullamcorper tincidunt platea. Venenatis nisl cursus lobortis mollis curabitur vehicula nullam nunc quisque. Ornare habitasse ligula, est sagittis venenatis aliquam ultricies! At mus urna dis ac id proin.
   source_mode = direct
   shadow = true
-  scale = 0.75
+  scale = 1.0
   base_color = #FFFFFFFF
   text_border = 2
   line_spacing = 2
@@ -138,54 +176,152 @@ element {
   bullet_list_spacing = 3.0
   parse_markdown = true
   element_type = text_v2
-  instance_identifier = 8766dfa7-106b-4fbf-9cc2-d036a6965cf4-1734872860706
+  instance_identifier = 05166f99-dbdf-4863-8e91-24faef6f28ac-1734889478076
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = top-centered
-  x = -481
-  y = 16
-  width = 200
-  height = 59
-  stretch_x = true
+  anchor_point = element
+  anchor_point_element = cf29a8d2-4cf3-4128-8d48-f68cc48a86d7-1734889159087
+  x = 173
+  y = 30
+  width = 355
+  height = 205
+  stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = 891138be-2ae1-401d-b84b-cc892622a5a5-1734872860706
-  [loading_requirement_container_meta:891138be-2ae1-401d-b84b-cc892622a5a5-1734872860706] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 8d5f8d06-73ec-4473-ab15-29f5edb3fa4f-1734889363815
+  [loading_requirement_container_meta:8d5f8d06-73ec-4473-ab15-29f5edb3fa4f-1734889363815] = [groups:][instances:]
 }
 
-vanilla_button {
-  button_element_executable_block_identifier = 7856c4bd-2b40-4dd9-8249-2241d0690b18-1734870566770
-  [executable_block:7856c4bd-2b40-4dd9-8249-2241d0690b18-1734870566770][type:generic] = [executables:]
+element {
+  interactable = true
+  source = Quoi de nouveau ?
+  source_mode = direct
+  shadow = true
+  scale = 1.25
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 3a99abf4-0ad8-4da6-a1a1-216305f41ccd-1734889688992
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = cf29a8d2-4cf3-4128-8d48-f68cc48a86d7-1734889159087
+  x = 154
+  y = 9
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 8d5f8d06-73ec-4473-ab15-29f5edb3fa4f-1734889363815
+  [loading_requirement_container_meta:8d5f8d06-73ec-4473-ab15-29f5edb3fa4f-1734889363815] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1940f685-8612-42fe-a181-77188bd9eb37-1734870780492
+  [executable_action_instance:2ad4109d-2480-47b7-b1bb-6b1fb02e5624-1734870800511][action_type:joinserver] = 86.198.202.53:30000
+  [executable_block:1940f685-8612-42fe-a181-77188bd9eb37-1734870780492][type:generic] = [executables:2ad4109d-2480-47b7-b1bb-6b1fb02e5624-1734870800511;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Réglages
+  description = Nombre de joueurs {"placeholder":"serverplayercount","values":{"ip":"86.198.202.53:30000"}}
+  label = Jouer
   navigatable = true
-  element_type = vanilla_button
-  instance_identifier = mc_titlescreen_options_button
+  element_type = custom_button
+  instance_identifier = 86362cb1-9c49-437b-b7cc-dadecd17c901-1734870780492
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = true
+  fade_in_speed = 1.0
+  anchor_point = mid-left
+  x = 99
+  y = -40
+  width = 120
+  height = 25
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 88f5dd2c-9cfb-4970-9cca-6ff25d23d082-1734870780492
+  [loading_requirement_container_meta:88f5dd2c-9cfb-4970-9cca-6ff25d23d082-1734870780492] = [groups:][instances:]
+}
+
+element {
+  source = Le client est toujours en bêta !!
+  source_mode = direct
+  scale = 1.75
+  shadow = true
+  rotation = -20.0
+  base_color = #FFFF00FF
+  refresh = false
+  bouncing = true
+  element_type = splash_text
+  instance_identifier = 2330e77a-8ce1-442f-93f3-b09b87d9a5a6-1734889826434
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = mid-left
-  x = 5
-  y = -10
-  width = 160
+  anchor_point = element
+  anchor_point_element = cf29a8d2-4cf3-4128-8d48-f68cc48a86d7-1734889159087
+  x = -38
+  y = -3
+  width = 148
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = b4c3c1d0-b77d-4f51-b7be-21fab43e861d-1734889826434
+  [loading_requirement_container_meta:b4c3c1d0-b77d-4f51-b7be-21fab43e861d-1734889826434] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = fc942dd0-bece-4a50-a741-2e651244e2eb-1734891493733
+  [executable_block:fc942dd0-bece-4a50-a741-2e651244e2eb-1734891493733][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = Outils de débogage%n%%n%Configuration de la machine%n%%n%OS : {"placeholder":"osname"}%n%%n%RAM : {"placeholder":"usedram"}MB%n%%n%CPU -%n%{"placeholder":"oscpu"}%%n%{"placeholder":"cpuinfo"}%n%%n%GPU -%n%{"placeholder":"gpuinfo"}%n%FPS : {"placeholder":"fps"}%n%%n%Java -%n%{"placeholder":"javaver"}%n%{"placeholder":"jvmname"}%n%%n%
+  label = ⚙
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 7fa5e75e-28d6-4006-8d5b-ab9812e73172-1734891493733
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -405
+  y = 225
+  width = 19
   height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = bb0f581e-9b33-49a8-b07b-73d298d5af93-1734870566770
-  [loading_requirement_container_meta:bb0f581e-9b33-49a8-b07b-73d298d5af93-1734870566770] = [groups:][instances:]
-  is_hidden = false
-  automated_button_clicks = 0
-  nine_slice_slider_handle = false
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
+  element_loading_requirement_container_identifier = c416faf1-5726-438d-bdea-918b3c20d16e-1734891493733
+  [loading_requirement_container_meta:c416faf1-5726-438d-bdea-918b3c20d16e-1734891493733] = [groups:][instances:]
 }
 
 vanilla_button {
@@ -221,30 +357,31 @@ vanilla_button {
 }
 
 vanilla_button {
-  button_element_executable_block_identifier = c2e8582c-f96a-432a-b24a-95be00c2bac1-1734870566770
-  [executable_block:c2e8582c-f96a-432a-b24a-95be00c2bac1-1734870566770][type:generic] = [executables:]
+  button_element_executable_block_identifier = 5d617f02-182f-405f-8a4a-0c2679ea181e-1734870566770
+  [executable_block:5d617f02-182f-405f-8a4a-0c2679ea181e-1734870566770][type:generic] = [executables:]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
+  label = Quitter
   navigatable = true
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_copyright_button
+  instance_identifier = mc_titlescreen_quit_button
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = bottom-centered
-  x = -98
-  y = -10
-  width = 196
-  height = 10
+  anchor_point = mid-left
+  x = 99
+  y = 30
+  width = 120
+  height = 25
   stretch_x = false
   stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = f2db7fe8-460c-4187-826b-fb90109e26d6-1734870566770
-  [loading_requirement_container_meta:f2db7fe8-460c-4187-826b-fb90109e26d6-1734870566770] = [groups:][instances:]
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = b8ea3c70-79e0-462f-a102-dc03f5edc0ef-1734870566770
+  [loading_requirement_container_meta:b8ea3c70-79e0-462f-a102-dc03f5edc0ef-1734870566770] = [groups:][instances:]
   is_hidden = false
   automated_button_clicks = 0
   nine_slice_slider_handle = false
@@ -285,8 +422,8 @@ vanilla_button {
 }
 
 vanilla_button {
-  button_element_executable_block_identifier = 4090032f-18db-4477-8b3b-4d730cebc42b-1734870566770
-  [executable_block:4090032f-18db-4477-8b3b-4d730cebc42b-1734870566770][type:generic] = [executables:]
+  button_element_executable_block_identifier = c2e8582c-f96a-432a-b24a-95be00c2bac1-1734870566770
+  [executable_block:c2e8582c-f96a-432a-b24a-95be00c2bac1-1734870566770][type:generic] = [executables:]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
@@ -294,22 +431,22 @@ vanilla_button {
   nine_slice_border_y = 5
   navigatable = true
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_multiplayer_button
+  instance_identifier = mc_titlescreen_copyright_button
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = vanilla
-  x = 380
-  y = 198
-  width = 200
-  height = 20
+  anchor_point = bottom-centered
+  x = -98
+  y = -10
+  width = 196
+  height = 10
   stretch_x = false
   stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = cbbd2ab6-1cbf-41e5-a9c3-de49dbe2beda-1734870566770
-  [loading_requirement_container_meta:cbbd2ab6-1cbf-41e5-a9c3-de49dbe2beda-1734870566770] = [groups:][instances:]
-  is_hidden = true
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = f2db7fe8-460c-4187-826b-fb90109e26d6-1734870566770
+  [loading_requirement_container_meta:f2db7fe8-460c-4187-826b-fb90109e26d6-1734870566770] = [groups:][instances:]
+  is_hidden = false
   automated_button_clicks = 0
   nine_slice_slider_handle = false
   nine_slice_slider_handle_border_x = 5
@@ -349,62 +486,31 @@ vanilla_button {
 }
 
 vanilla_button {
-  button_element_executable_block_identifier = 071fe0b0-ccc8-46d9-92f4-0bc0fb4d3ec4-1734870566770
-  [executable_block:071fe0b0-ccc8-46d9-92f4-0bc0fb4d3ec4-1734870566770][type:generic] = [executables:]
+  button_element_executable_block_identifier = 7856c4bd-2b40-4dd9-8249-2241d0690b18-1734870566770
+  [executable_block:7856c4bd-2b40-4dd9-8249-2241d0690b18-1734870566770][type:generic] = [executables:]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
+  label = Options
   navigatable = true
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_singleplayer_button
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = vanilla
-  x = 380
-  y = 174
-  width = 200
-  height = 20
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 2f5f34f0-0f34-42e5-94f5-8f3045c69492-1734870566770
-  [loading_requirement_container_meta:2f5f34f0-0f34-42e5-94f5-8f3045c69492-1734870566770] = [groups:][instances:]
-  is_hidden = true
-  automated_button_clicks = 0
-  nine_slice_slider_handle = false
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
-}
-
-vanilla_button {
-  button_element_executable_block_identifier = 5d617f02-182f-405f-8a4a-0c2679ea181e-1734870566770
-  [executable_block:5d617f02-182f-405f-8a4a-0c2679ea181e-1734870566770][type:generic] = [executables:]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  navigatable = true
-  element_type = vanilla_button
-  instance_identifier = mc_titlescreen_quit_button
+  instance_identifier = mc_titlescreen_options_button
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = mid-left
-  x = 5
-  y = 26
-  width = 160
-  height = 20
+  x = 99
+  y = -5
+  width = 120
+  height = 25
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = b8ea3c70-79e0-462f-a102-dc03f5edc0ef-1734870566770
-  [loading_requirement_container_meta:b8ea3c70-79e0-462f-a102-dc03f5edc0ef-1734870566770] = [groups:][instances:]
+  element_loading_requirement_container_identifier = bb0f581e-9b33-49a8-b07b-73d298d5af93-1734870566770
+  [loading_requirement_container_meta:bb0f581e-9b33-49a8-b07b-73d298d5af93-1734870566770] = [groups:][instances:]
   is_hidden = false
   automated_button_clicks = 0
   nine_slice_slider_handle = false
@@ -470,6 +576,70 @@ vanilla_button {
   element_loading_requirement_container_identifier = c84333e4-ab37-4502-b560-450d50735ef8-1734870566770
   [loading_requirement_container_meta:c84333e4-ab37-4502-b560-450d50735ef8-1734870566770] = [groups:][instances:]
   is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 4090032f-18db-4477-8b3b-4d730cebc42b-1734870566770
+  [executable_block:4090032f-18db-4477-8b3b-4d730cebc42b-1734870566770][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 380
+  y = 198
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = cbbd2ab6-1cbf-41e5-a9c3-de49dbe2beda-1734870566770
+  [loading_requirement_container_meta:cbbd2ab6-1cbf-41e5-a9c3-de49dbe2beda-1734870566770] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 071fe0b0-ccc8-46d9-92f4-0bc0fb4d3ec4-1734870566770
+  [executable_block:071fe0b0-ccc8-46d9-92f4-0bc0fb4d3ec4-1734870566770][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 380
+  y = 174
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2f5f34f0-0f34-42e5-94f5-8f3045c69492-1734870566770
+  [loading_requirement_container_meta:2f5f34f0-0f34-42e5-94f5-8f3045c69492-1734870566770] = [groups:][instances:]
+  is_hidden = true
   automated_button_clicks = 0
   nine_slice_slider_handle = false
   nine_slice_slider_handle_border_x = 5
