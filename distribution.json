@@ -6,24 +6,15 @@
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
-
-  "resources": [
-    {
-      "name": "NeoCube Modern UI",
-      "url": "https://github.com/NeoCubeS4/NeoLauncher-sources/raw/refs/heads/main/NeoPack.zip"
-    }
-  ],
-
   "servers": [
     {
       "id": "NeoCube-1.20.1",
       "name": "NeoCube",
       "description": "",
       "icon": "https://github.com/NeoCubeS4/NeoLauncher-sources/blob/main/main.png?raw=true",
-      "version": "4.1.11",
+      "version": "4.1.12",
       "address": "86.198.202.53:30000",
       "minecraftVersion": "1.20.1",
-      "resources": "NeoCube Modern UI",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -949,6 +940,17 @@
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/fancymenu_data/last_world.fmdata",
             "MD5": "93afeb7398ec3062a1746daa7cabbd4a",
             "path": "fancymenu_data/last_world.fmdata"
+          }
+        },
+        {
+          "id": "NeoPack.zip",
+          "name": "NeoPack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 11873,
+            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/resourcepacks/NeoPack.zip",
+            "MD5": "c3f8921a33d7aad79a995ed0b6ae9d4e",
+            "path": "resourcepacks/NeoPack.zip"
           }
         }
       ]
