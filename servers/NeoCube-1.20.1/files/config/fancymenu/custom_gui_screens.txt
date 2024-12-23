@@ -1,7 +1,7 @@
 type = custom_gui_screens
 
 overridden_screens {
-  net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen = neocube_modern_ui_v1
+  join_multiplayer_screen = neocube_modern_ui_v1
 }
 
 custom_gui {
