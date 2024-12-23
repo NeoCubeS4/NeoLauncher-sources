@@ -12,7 +12,7 @@
       "name": "NeoCube",
       "description": "",
       "icon": "https://github.com/NeoCubeS4/NeoLauncher-sources/blob/main/main.png?raw=true",
-      "version": "4.1.12",
+      "version": "4.1.13",
       "address": "86.198.202.53:30000",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -943,14 +943,14 @@
           }
         },
         {
-          "id": "NeoPack.zip",
-          "name": "NeoPack.zip",
+          "id": "NeoCube Modern UI.zip",
+          "name": "NeoCube Modern UI.zip",
           "type": "File",
           "artifact": {
-            "size": 11873,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/resourcepacks/NeoPack.zip",
-            "MD5": "c3f8921a33d7aad79a995ed0b6ae9d4e",
-            "path": "resourcepacks/NeoPack.zip"
+            "size": 15534,
+            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/resourcepacks/NeoCube%20Modern%20UI.zip",
+            "MD5": "91bee770ae1d276194e1de917885179c",
+            "path": "resourcepacks/NeoCube Modern UI.zip"
           }
         }
       ]
