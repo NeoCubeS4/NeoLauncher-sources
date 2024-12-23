@@ -867,9 +867,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 1758,
+            "size": 1757,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/options.txt",
-            "MD5": "c88b8fca9d043fe84624c57aeb9319a4",
+            "MD5": "808a39e55671ad77a80d50aa536b41fe",
             "path": "config/fancymenu/options.txt"
           }
         },
