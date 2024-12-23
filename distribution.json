@@ -523,16 +523,6 @@
           }
         },
         {
-          "id": "software.bernie.example:geckolib:4.4.9@jar",
-          "name": "GeckoLib 4",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 991552,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.4.9.jar",
-            "MD5": "edc6083a1c68415b9635d68c7cdf7a99"
-          }
-        },
-        {
           "id": "com.progwml6:ironchest:1.20.1-14.4.4@jar",
           "name": "Iron Chests",
           "type": "ForgeMod",
@@ -693,16 +683,6 @@
           }
         },
         {
-          "id": "com.scarasol:sona:1.1.0@jar",
-          "name": "Sona Survival 101",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 603861,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/sona-1.20.1-forge-1.1.0-fixed.jar",
-            "MD5": "76fd5057c7f9beb3fe12cb76774723ec"
-          }
-        },
-        {
           "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.4.8@jar",
           "name": "Sound Physics Remastered",
           "type": "ForgeMod",
@@ -740,16 +720,6 @@
             "size": 492998,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
             "MD5": "fe8d205c98cb02840d46646fb7cf5ab8"
-          }
-        },
-        {
-          "id": "com.scarasol:zombiekit:2.0.1@jar",
-          "name": "Zombie Survival Kit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5404341,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/Zombie%20Survival%20Kit-1.20.1-forge-2.0.2.jar",
-            "MD5": "b0d036caf632b9ad4429956e22cf41a8"
           }
         },
         {
