@@ -1,7 +1,7 @@
 {
   "$schema": "file:///H:/NeoCube-DistComplilator/Nebula/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "4.1.13",
+    "version": "4.1.16",
     "name": "NeoCube",
     "description": "",
     "icon": "https://github.com/NeoCubeS4/NeoLauncher-sources/blob/main/main.png?raw=true",

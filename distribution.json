@@ -12,7 +12,7 @@
       "name": "NeoCube",
       "description": "",
       "icon": "https://github.com/NeoCubeS4/NeoLauncher-sources/blob/main/main.png?raw=true",
-      "version": "4.1.15",
+      "version": "4.1.16",
       "address": "86.198.202.53:30000",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -470,16 +470,6 @@
             "size": 9743813,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/appliedenergistics2-forge-15.2.16.jar",
             "MD5": "99c531b0490f38cc5d0c80414328ca25"
-          }
-        },
-        {
-          "id": "dan200.computercraft:computercraft:1.113.1@jar",
-          "name": "CC: Tweaked",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3063695,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/cc-tweaked-1.20.1-forge-1.113.1.jar",
-            "MD5": "92b7b114f5ee6067b4f0eff1636817f2"
           }
         },
         {
