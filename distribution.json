@@ -12,7 +12,7 @@
       "name": "NeoCube",
       "description": "",
       "icon": "https://github.com/NeoCubeS4/NeoLauncher-sources/blob/main/main.png?raw=true",
-      "version": "4.1.13",
+      "version": "4.1.14",
       "address": "86.198.202.53:30000",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -573,16 +573,6 @@
           }
         },
         {
-          "id": "mcjty.lib:mcjtylib:1.20-8.0.6@jar",
-          "name": "McJtyLib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 675157,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/mcjtylib-1.20-8.0.6.jar",
-            "MD5": "318269b38df6cca8bfe7fec0a16cc644"
-          }
-        },
-        {
           "id": "com.mcwbridges.kikoz:mcwbridges:3.0.0@jar",
           "name": "Macaw's Bridges",
           "type": "ForgeMod",
@@ -603,23 +593,13 @@
           }
         },
         {
-          "id": "mekanism:mekanism:10.4.13@jar",
+          "id": "mekanism:mekanism:10.4.12@jar",
           "name": "Mekanism",
           "type": "ForgeMod",
           "artifact": {
-            "size": 12553531,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/Mekanism-1.20.1-10.4.13.69.jar",
-            "MD5": "11bc1e548a0b0990eb77d3a1878c784c"
-          }
-        },
-        {
-          "id": "mekanism.generators:mekanismgenerators:10.4.13@jar",
-          "name": "Mekanism: Generators",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1054583,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/MekanismGenerators-1.20.1-10.4.13.69.jar",
-            "MD5": "3d34f857d9ecc0813576dddfa5ecfc1c"
+            "size": 12553356,
+            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/Mekanism-1.20.1-10.4.12.68.jar",
+            "MD5": "a9777813fbc1f759bb94bae070b73306"
           }
         },
         {
@@ -683,16 +663,6 @@
           }
         },
         {
-          "id": "mcjty.rftoolsbase:rftoolsbase:1.20-5.0.5@jar",
-          "name": "RFToolsBase",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 419423,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/rftoolsbase-1.20-5.0.5.jar",
-            "MD5": "99bf22c16bb290b2cc8b8c157a973a96"
-          }
-        },
-        {
           "id": "com.talhanation:smallships:2.0.0-b1.4@jar",
           "name": "Small Ships",
           "type": "ForgeMod",
@@ -710,26 +680,6 @@
             "size": 5362591,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/snowyspirit-1.20-3.0.10.jar",
             "MD5": "8d281f47b68918f177f7f1e5f12bbeae"
-          }
-        },
-        {
-          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.20.17.1150@jar",
-          "name": "Sophisticated Backpacks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 860631,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.20.17.1150.jar",
-            "MD5": "f69bf0620e0d985df48ce208f30e8deb"
-          }
-        },
-        {
-          "id": "net.p3pp3rf1y:sophisticatedcore:1.0.1.809@jar",
-          "name": "Sophisticated Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1120842,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.0.1.809.jar",
-            "MD5": "33f9898fc5a7b64104ad706ff062c1f0"
           }
         },
         {
@@ -795,39 +745,6 @@
           }
         },
         {
-          "id": "basic.png",
-          "name": "basic.png",
-          "type": "File",
-          "artifact": {
-            "size": 276,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/basic.png",
-            "MD5": "6d565272e4f8861625683513c437ec4c",
-            "path": "config/fancymenu/assets/basic.png"
-          }
-        },
-        {
-          "id": "hover.ogg",
-          "name": "hover.ogg",
-          "type": "File",
-          "artifact": {
-            "size": 13043,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/hover.ogg",
-            "MD5": "a1e5884e876f262e06e40c02dc2287bb",
-            "path": "config/fancymenu/assets/hover.ogg"
-          }
-        },
-        {
-          "id": "hover.png",
-          "name": "hover.png",
-          "type": "File",
-          "artifact": {
-            "size": 273,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/hover.png",
-            "MD5": "496f8285f303082f17955205249163a0",
-            "path": "config/fancymenu/assets/hover.png"
-          }
-        },
-        {
           "id": "logo.png",
           "name": "logo.png",
           "type": "File",
@@ -850,72 +767,6 @@
           }
         },
         {
-          "id": "neohomebasic.png",
-          "name": "neohomebasic.png",
-          "type": "File",
-          "artifact": {
-            "size": 396,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/neohomebasic.png",
-            "MD5": "e9a9d6fca8ab4e554241a1ae40ad2f00",
-            "path": "config/fancymenu/assets/neohomebasic.png"
-          }
-        },
-        {
-          "id": "neohomehover.png",
-          "name": "neohomehover.png",
-          "type": "File",
-          "artifact": {
-            "size": 330,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/neohomehover.png",
-            "MD5": "80a20ad92211951e9c3184893839314e",
-            "path": "config/fancymenu/assets/neohomehover.png"
-          }
-        },
-        {
-          "id": "playbasic.png",
-          "name": "playbasic.png",
-          "type": "File",
-          "artifact": {
-            "size": 286,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/playbasic.png",
-            "MD5": "668fde708414cff02c2a83ce8c68fe79",
-            "path": "config/fancymenu/assets/playbasic.png"
-          }
-        },
-        {
-          "id": "playdisable.png",
-          "name": "playdisable.png",
-          "type": "File",
-          "artifact": {
-            "size": 271,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/playdisable.png",
-            "MD5": "b0780f93b5c2271c608cd89cb10d370a",
-            "path": "config/fancymenu/assets/playdisable.png"
-          }
-        },
-        {
-          "id": "playhover.png",
-          "name": "playhover.png",
-          "type": "File",
-          "artifact": {
-            "size": 279,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/playhover.png",
-            "MD5": "2b765c4aab95229f77e04172f62551ce",
-            "path": "config/fancymenu/assets/playhover.png"
-          }
-        },
-        {
-          "id": "select.ogg",
-          "name": "select.ogg",
-          "type": "File",
-          "artifact": {
-            "size": 22772,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/select.ogg",
-            "MD5": "942aa498a35481291a3aeb28a0f688c4",
-            "path": "config/fancymenu/assets/select.ogg"
-          }
-        },
-        {
           "id": "customizablemenus.txt",
           "name": "customizablemenus.txt",
           "type": "File",
@@ -931,9 +782,9 @@
           "name": "neocube_modern_ui_v1.txt",
           "type": "File",
           "artifact": {
-            "size": 34650,
+            "size": 32104,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/customization/neocube_modern_ui_v1.txt",
-            "MD5": "0dc097c992cb8924b1c93fd837013c6b",
+            "MD5": "6a3cae33a3a3045cfce59117ec4e8b41",
             "path": "config/fancymenu/customization/neocube_modern_ui_v1.txt"
           }
         },
@@ -986,9 +837,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 1758,
+            "size": 1757,
             "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/options.txt",
-            "MD5": "c88b8fca9d043fe84624c57aeb9319a4",
+            "MD5": "808a39e55671ad77a80d50aa536b41fe",
             "path": "config/fancymenu/options.txt"
           }
         },
